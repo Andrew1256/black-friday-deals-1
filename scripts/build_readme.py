@@ -122,6 +122,13 @@ def offer_text(deal: dict) -> str:
     return f"<b>{text}</b>"
 
 
+def card_offer(deal: dict) -> str:
+    """Offer on a top pick card. A `tag` image (e.g. an animated start date) replaces it."""
+    if deal.get("tag"):
+        return f'<img src="{deal["tag"]}" height="22" alt="{deal["name"]} start date">'
+    return offer_text(deal)
+
+
 def plain_offer(deal: dict) -> str:
     """Offer as one plain sentence fragment, for FAQ answers."""
     code = f" with code `{deal['code']}`" if deal.get("code") and not code_soon(deal) else ""
@@ -193,7 +200,7 @@ def validate(data: dict) -> list[str]:
                 errors.append(f"{label}: url must start with https://")
             if "|" in str(deal.get("description", "")) + str(deal.get("offer", "")):
                 errors.append(f"{label}: '|' is not allowed (it breaks the table)")
-            for path in deal.get("logos", []):
+            for path in deal.get("logos", []) + ([deal["tag"]] if deal.get("tag") else []):
                 if not (ROOT / path).is_file():
                     errors.append(f"{label}: logo file not found: {path}")
             if deal.get("name") in names:
@@ -267,7 +274,7 @@ def render_top_picks(data: dict) -> str:
             f"      <sub>&nbsp;</sub><br>\n"  # breathing space above the logo
             f'      <a href="{d["url"]}">{logo(d, 44)}</a><br>\n'
             f"      {link_name(d)}<br>\n"
-            f"      {offer_text(d)}<br>\n"
+            f"      {card_offer(d)}<br>\n"
             f"      <sub>&nbsp;</sub>\n"  # and below the offer
             f"    </td>"
             for d in chunk
