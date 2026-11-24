@@ -30,7 +30,7 @@ Our favourite deals this year for everyone working in **DevOps, Cloud, Kubernete
       <sub>&nbsp;</sub><br>
       <a href="https://tidd.ly/3Uc4okA"><img src="https://www.google.com/s2/favicons?domain=linuxfoundation.org&sz=128" width="44" height="44" alt="Linux Foundation Certifications logo"></a><br>
       <a href="https://tidd.ly/3Uc4okA"><ins><b>Linux Foundation Certifications</b></ins></a><br>
-      ⏳<br>
+      <img src=".github/assets/starts-nov-26.svg" height="22" alt="Linux Foundation Certifications start date"><br>
       <sub>&nbsp;</sub>
     </td>
     <td align="center" valign="top" width="25%">
