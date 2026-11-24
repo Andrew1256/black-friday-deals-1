@@ -155,7 +155,7 @@ categories:
         logos: [.github/assets/certs/cka.svg, .github/assets/certs/ckad.svg, .github/assets/certs/cks.png, .github/assets/certs/kcna.svg, .github/assets/certs/kcsa.svg]
         url: https://tidd.ly/3Uc4okA
         description: CKA, CKAD, CKS, KCNA and KCSA. Every single exam in the CNCF Kubernetes track
-        offer: Deals coming soon
+        offer: 40% off every exam
         code: soon
         status: soon
       - name: Professional Bundles
@@ -163,7 +163,7 @@ categories:
         logos: [.github/assets/certs/cka.svg, .github/assets/certs/ckad.svg, .github/assets/certs/cks.png]
         url: https://tidd.ly/3Uc4okA
         description: CKA + CKAD, CKA + CKS, or all three together (CKA + CKAD + CKS)
-        offer: Deals coming soon
+        offer: Up to 47% off
         code: soon
         status: soon
       - name: Associate + Professional Bundles
@@ -171,7 +171,7 @@ categories:
         logos: [.github/assets/certs/kcna.svg, .github/assets/certs/cka.svg, .github/assets/certs/kcsa.svg, .github/assets/certs/cks.png]
         url: https://tidd.ly/3Uc4okA
         description: KCNA + CKA or KCSA + CKS. Start with the associate exam, then go pro
-        offer: Deals coming soon
+        offer: Up to 47% off
         code: soon
         status: soon
       - name: Associate Bundle
@@ -179,7 +179,7 @@ categories:
         logos: [.github/assets/certs/kcna.svg, .github/assets/certs/kcsa.svg]
         url: https://tidd.ly/3Uc4okA
         description: KCNA + KCSA. Both associate-level exams together
-        offer: Deals coming soon
+        offer: Up to 47% off
         code: soon
         status: soon
       - name: Kubestronaut Bundle
@@ -187,7 +187,7 @@ categories:
         logos: [.github/assets/certs/kubestronaut.svg]
         url: https://tidd.ly/3Uc4okA
         description: CKA, CKAD, CKS, KCNA and KCSA. All 5 exams for the Kubestronaut title
-        offer: Deals coming soon
+        offer: Up to 47% off
         code: soon
         status: soon
       - name: Golden Kubestronaut Bundle
@@ -195,21 +195,21 @@ categories:
         logos: [.github/assets/certs/golden-kubestronaut.svg]
         url: https://tidd.ly/3Uc4okA
         description: All 16 CNCF and LF certs, including PCA, ICA, CAPA and LFCS
-        offer: Deals coming soon
+        offer: 40% off bundle price
         code: soon
         status: soon
       - name: Linux Foundation Certifications
         domain: linuxfoundation.org
         url: https://tidd.ly/3Uc4okA
         description: LFCS, PCA, ICA, CAPA and every other LF cert, plus courses
-        offer: Deals coming soon
+        offer: 40% off sitewide
         code: soon
         status: soon
       - name: Linux Foundation SkillCreds
         domain: linuxfoundation.org
         url: https://tidd.ly/3Uc4okA
         description: Short skill certs for Git, Bash, Helm, YAML and Vim
-        offer: Deals coming soon
+        offer: 40% off
         code: soon
         status: soon
       - name: FinOps Certifications
@@ -217,8 +217,8 @@ categories:
         url: https://learn.finops.org/path/finops-certified-practitioner-self-paced
         description: FinOps Certified Practitioner, Engineer, FOCUS Analyst and FinOps for AI
         offer: 20% off
-        code: COMTECHIES_20
-        status: live
+        code: soon
+        status: soon
 
   - id: hosting-platforms
     faq_topic: web hosting
