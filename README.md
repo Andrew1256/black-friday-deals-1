@@ -10,7 +10,7 @@ web hosting and creator tools, checked and updated through Cyber Monday.</p>
 
 <!-- STATS:START -->
 
-[![deals live](https://img.shields.io/badge/deals_live-27_of_41-22c55e?style=for-the-badge)](#categories) ![black friday](https://img.shields.io/badge/black_friday-Nov_27%2C_2026-111827?style=for-the-badge) ![cyber monday](https://img.shields.io/badge/cyber_monday-Nov_30%2C_2026-6366f1?style=for-the-badge) ![last checked](https://img.shields.io/badge/last_checked-Nov_24%2C_2026-0ea5e9?style=for-the-badge)
+[![deals live](https://img.shields.io/badge/deals_live-26_of_41-22c55e?style=for-the-badge)](#categories) ![black friday](https://img.shields.io/badge/black_friday-Nov_27%2C_2026-111827?style=for-the-badge) ![cyber monday](https://img.shields.io/badge/cyber_monday-Nov_30%2C_2026-6366f1?style=for-the-badge) ![last checked](https://img.shields.io/badge/last_checked-Nov_24%2C_2026-0ea5e9?style=for-the-badge)
 <!-- STATS:END -->
 
 </div>
@@ -30,7 +30,7 @@ Our favourite deals this year for everyone working in **DevOps, Cloud, Kubernete
       <sub>&nbsp;</sub><br>
       <a href="https://tidd.ly/3Uc4okA"><img src="https://www.google.com/s2/favicons?domain=linuxfoundation.org&sz=128" width="44" height="44" alt="Linux Foundation Certifications logo"></a><br>
       <a href="https://tidd.ly/3Uc4okA"><ins><b>Linux Foundation Certifications</b></ins></a><br>
-      <b>Deals&nbsp;coming&nbsp;soon</b><br>
+      <b>40%&nbsp;off&nbsp;sitewide</b><br>
       <sub>&nbsp;</sub>
     </td>
     <td align="center" valign="top" width="25%">
@@ -342,56 +342,56 @@ Prove your skills with a certification. The Linux Foundation Black Friday and Cy
   <tr>
     <td align="center"><img src=".github/assets/certs/cka.svg" height="28" alt="Kubernetes Certifications logo">&nbsp;<img src=".github/assets/certs/ckad.svg" height="28" alt="Kubernetes Certifications logo">&nbsp;<img src=".github/assets/certs/cks.png" height="28" alt="Kubernetes Certifications logo">&nbsp;<img src=".github/assets/certs/kcna.svg" height="28" alt="Kubernetes Certifications logo">&nbsp;<img src=".github/assets/certs/kcsa.svg" height="28" alt="Kubernetes Certifications logo"><br><a href="https://tidd.ly/3Uc4okA"><ins><b>Kubernetes Certifications</b></ins></a></td>
     <td>CKA, CKAD, CKS, KCNA and KCSA. Every single exam in the CNCF Kubernetes track</td>
-    <td align="center"><b>Deals&nbsp;coming&nbsp;soon</b></td>
+    <td align="center"><b>40%&nbsp;off&nbsp;every&nbsp;exam</b></td>
     <td align="center" nowrap>⏳&nbsp;<a href="https://tidd.ly/3Uc4okA"><img src="https://img.shields.io/badge/Code-Coming_Soon-f97316?style=for-the-badge&labelColor=111827" alt="Code coming soon" height="26"></a></td>
     <td align="center">⏳&nbsp;Soon</td>
   </tr>
   <tr>
     <td align="center"><img src=".github/assets/certs/cka.svg" height="28" alt="Professional Bundles logo">&nbsp;<img src=".github/assets/certs/ckad.svg" height="28" alt="Professional Bundles logo">&nbsp;<img src=".github/assets/certs/cks.png" height="28" alt="Professional Bundles logo"><br><a href="https://tidd.ly/3Uc4okA"><ins><b>Professional Bundles</b></ins></a></td>
     <td>CKA + CKAD, CKA + CKS, or all three together (CKA + CKAD + CKS)</td>
-    <td align="center"><b>Deals&nbsp;coming&nbsp;soon</b></td>
+    <td align="center"><b>Up&nbsp;to&nbsp;47%&nbsp;off</b></td>
     <td align="center" nowrap>⏳&nbsp;<a href="https://tidd.ly/3Uc4okA"><img src="https://img.shields.io/badge/Code-Coming_Soon-f97316?style=for-the-badge&labelColor=111827" alt="Code coming soon" height="26"></a></td>
     <td align="center">⏳&nbsp;Soon</td>
   </tr>
   <tr>
     <td align="center"><img src=".github/assets/certs/kcna.svg" height="28" alt="Associate + Professional Bundles logo">&nbsp;<img src=".github/assets/certs/cka.svg" height="28" alt="Associate + Professional Bundles logo">&nbsp;<img src=".github/assets/certs/kcsa.svg" height="28" alt="Associate + Professional Bundles logo">&nbsp;<img src=".github/assets/certs/cks.png" height="28" alt="Associate + Professional Bundles logo"><br><a href="https://tidd.ly/3Uc4okA"><ins><b>Associate + Professional Bundles</b></ins></a></td>
     <td>KCNA + CKA or KCSA + CKS. Start with the associate exam, then go pro</td>
-    <td align="center"><b>Deals&nbsp;coming&nbsp;soon</b></td>
+    <td align="center"><b>Up&nbsp;to&nbsp;47%&nbsp;off</b></td>
     <td align="center" nowrap>⏳&nbsp;<a href="https://tidd.ly/3Uc4okA"><img src="https://img.shields.io/badge/Code-Coming_Soon-f97316?style=for-the-badge&labelColor=111827" alt="Code coming soon" height="26"></a></td>
     <td align="center">⏳&nbsp;Soon</td>
   </tr>
   <tr>
     <td align="center"><img src=".github/assets/certs/kcna.svg" height="28" alt="Associate Bundle logo">&nbsp;<img src=".github/assets/certs/kcsa.svg" height="28" alt="Associate Bundle logo"><br><a href="https://tidd.ly/3Uc4okA"><ins><b>Associate Bundle</b></ins></a></td>
     <td>KCNA + KCSA. Both associate-level exams together</td>
-    <td align="center"><b>Deals&nbsp;coming&nbsp;soon</b></td>
+    <td align="center"><b>Up&nbsp;to&nbsp;47%&nbsp;off</b></td>
     <td align="center" nowrap>⏳&nbsp;<a href="https://tidd.ly/3Uc4okA"><img src="https://img.shields.io/badge/Code-Coming_Soon-f97316?style=for-the-badge&labelColor=111827" alt="Code coming soon" height="26"></a></td>
     <td align="center">⏳&nbsp;Soon</td>
   </tr>
   <tr>
     <td align="center"><img src=".github/assets/certs/kubestronaut.svg" height="28" alt="Kubestronaut Bundle logo"><br><a href="https://tidd.ly/3Uc4okA"><ins><b>Kubestronaut Bundle</b></ins></a></td>
     <td>CKA, CKAD, CKS, KCNA and KCSA. All 5 exams for the Kubestronaut title</td>
-    <td align="center"><b>Deals&nbsp;coming&nbsp;soon</b></td>
+    <td align="center"><b>Up&nbsp;to&nbsp;47%&nbsp;off</b></td>
     <td align="center" nowrap>⏳&nbsp;<a href="https://tidd.ly/3Uc4okA"><img src="https://img.shields.io/badge/Code-Coming_Soon-f97316?style=for-the-badge&labelColor=111827" alt="Code coming soon" height="26"></a></td>
     <td align="center">⏳&nbsp;Soon</td>
   </tr>
   <tr>
     <td align="center"><img src=".github/assets/certs/golden-kubestronaut.svg" height="28" alt="Golden Kubestronaut Bundle logo"><br><a href="https://tidd.ly/3Uc4okA"><ins><b>Golden Kubestronaut Bundle</b></ins></a></td>
     <td>All 16 CNCF and LF certs, including PCA, ICA, CAPA and LFCS</td>
-    <td align="center"><b>Deals&nbsp;coming&nbsp;soon</b></td>
+    <td align="center"><b>40% off bundle price</b></td>
     <td align="center" nowrap>⏳&nbsp;<a href="https://tidd.ly/3Uc4okA"><img src="https://img.shields.io/badge/Code-Coming_Soon-f97316?style=for-the-badge&labelColor=111827" alt="Code coming soon" height="26"></a></td>
     <td align="center">⏳&nbsp;Soon</td>
   </tr>
   <tr>
     <td align="center"><img src="https://www.google.com/s2/favicons?domain=linuxfoundation.org&sz=128" width="32" height="32" alt="Linux Foundation Certifications logo"><br><a href="https://tidd.ly/3Uc4okA"><ins><b>Linux Foundation Certifications</b></ins></a></td>
     <td>LFCS, PCA, ICA, CAPA and every other LF cert, plus courses</td>
-    <td align="center"><b>Deals&nbsp;coming&nbsp;soon</b></td>
+    <td align="center"><b>40%&nbsp;off&nbsp;sitewide</b></td>
     <td align="center" nowrap>⏳&nbsp;<a href="https://tidd.ly/3Uc4okA"><img src="https://img.shields.io/badge/Code-Coming_Soon-f97316?style=for-the-badge&labelColor=111827" alt="Code coming soon" height="26"></a></td>
     <td align="center">⏳&nbsp;Soon</td>
   </tr>
   <tr>
     <td align="center"><img src="https://www.google.com/s2/favicons?domain=linuxfoundation.org&sz=128" width="32" height="32" alt="Linux Foundation SkillCreds logo"><br><a href="https://tidd.ly/3Uc4okA"><ins><b>Linux Foundation SkillCreds</b></ins></a></td>
     <td>Short skill certs for Git, Bash, Helm, YAML and Vim</td>
-    <td align="center"><b>Deals&nbsp;coming&nbsp;soon</b></td>
+    <td align="center"><b>40%&nbsp;off</b></td>
     <td align="center" nowrap>⏳&nbsp;<a href="https://tidd.ly/3Uc4okA"><img src="https://img.shields.io/badge/Code-Coming_Soon-f97316?style=for-the-badge&labelColor=111827" alt="Code coming soon" height="26"></a></td>
     <td align="center">⏳&nbsp;Soon</td>
   </tr>
@@ -399,8 +399,8 @@ Prove your skills with a certification. The Linux Foundation Black Friday and Cy
     <td align="center"><img src="https://www.google.com/s2/favicons?domain=finops.org&sz=128" width="32" height="32" alt="FinOps Certifications logo"><br><a href="https://learn.finops.org/path/finops-certified-practitioner-self-paced"><ins><b>FinOps Certifications</b></ins></a></td>
     <td>FinOps Certified Practitioner, Engineer, FOCUS Analyst and FinOps for AI</td>
     <td align="center"><b>20%&nbsp;off</b></td>
-    <td align="center" nowrap><a href="https://learn.finops.org/path/finops-certified-practitioner-self-paced"><img src="https://img.shields.io/badge/Code-COMTECHIES__20-f97316?style=for-the-badge&labelColor=111827" alt="COMTECHIES_20" height="26"></a></td>
-    <td align="center">🟢&nbsp;Live</td>
+    <td align="center" nowrap>⏳&nbsp;<a href="https://learn.finops.org/path/finops-certified-practitioner-self-paced"><img src="https://img.shields.io/badge/Code-Coming_Soon-f97316?style=for-the-badge&labelColor=111827" alt="Code coming soon" height="26"></a></td>
+    <td align="center">⏳&nbsp;Soon</td>
   </tr>
 </table>
 
@@ -584,13 +584,6 @@ Black Friday 2026 is on **Nov 27, 2026** and Cyber Monday 2026 is on **Nov 30, 2
 </details>
 
 <details>
-<summary><b>What are the best Kubernetes certification deals for Black Friday 2026?</b></summary>
-
-- **FinOps Certifications**: 20% off with code `COMTECHIES_20`
-
-</details>
-
-<details>
 <summary><b>What are the best web hosting deals for Black Friday 2026?</b></summary>
 
 - **Bluehost**: Up to 78% off
@@ -617,7 +610,6 @@ Black Friday 2026 is on **Nov 27, 2026** and Cyber Monday 2026 is on **Nov 30, 2
 <summary><b>Which Black Friday 2026 coupon codes work right now?</b></summary>
 
 - `CYBER50`: DevOpsCube Courses
-- `COMTECHIES_20`: FinOps Certifications
 - `BFCM802`: Cloudways
 - `BFCM55`: Squarespace
 - `DCUBE20OFF`: Beehiiv
@@ -627,7 +619,7 @@ Black Friday 2026 is on **Nov 27, 2026** and Cyber Monday 2026 is on **Nov 30, 2
 <details>
 <summary><b>How often is this Black Friday tracker updated?</b></summary>
 
-We check every deal during the sale and mark it 🟢 Live, ⏳ Soon or ⛔ Expired. Last checked: **Nov 24, 2026**. 27 of 41 deals are live.
+We check every deal during the sale and mark it 🟢 Live, ⏳ Soon or ⛔ Expired. Last checked: **Nov 24, 2026**. 26 of 41 deals are live.
 
 </details>
 <!-- FAQ:END -->
