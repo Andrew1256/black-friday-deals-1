@@ -75,7 +75,7 @@ def code_soon(deal: dict) -> bool:
 
 def waiting_button(deal: dict, height: int = 26) -> str:
     """Grey "Code coming soon" button with a waiting icon, for codes not out yet."""
-    img = shield("Code", "Coming Soon", "64748b", "111827")
+    img = shield("Code", "Coming Soon", "f97316", "111827")
     return f'⏳&nbsp;<a href="{deal["url"]}"><img src="{img}" alt="Code coming soon" height="{height}"></a>'
 
 
@@ -112,7 +112,7 @@ def logo(deal: dict, size: int) -> str:
 
 
 def offer_text(deal: dict) -> str:
-    if deal["status"] == "soon":
+    if deal["status"] == "soon" and not code_soon(deal):
         return f"👀&nbsp;<i>{deal['offer']}</i>"
     text = deal["offer"]
     if len(text) <= 18:  # keep short offers like "40% off" on one line
@@ -243,7 +243,8 @@ def link_name(d: dict) -> str:
 def card_button(d: dict) -> str:
     """Top pick action: coupon button or Get Deal button, same size."""
     if code_soon(d):
-        return waiting_button(d, 28)
+        img = shield("Coming Soon", None, "f97316")
+        return f'<a href="{d["url"]}"><img src="{img}" alt="Coming Soon" height="28"></a>'
     if d.get("code"):
         return coupon_button(d, 28)
     img = shield("Get Deal", None, "f97316")
