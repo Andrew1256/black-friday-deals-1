@@ -27,6 +27,7 @@ Thanks for helping engineers save money! This list is for deals that are useful 
      description: Hands-on DevOps courses with in-browser labs   # one short line
      offer: 50% off annual plans      # what the reader gets
      code: BF2026                     # optional, leave out if no code is needed
+                                      # use `code: soon` to show a ⏳ "Code coming soon" button
      valid: Ends Dec 2                # optional, deadline or date range
      status: live                     # live | soon | expired
    ```
