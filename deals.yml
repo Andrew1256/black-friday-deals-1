@@ -204,6 +204,7 @@ categories:
         description: LFCS, PCA, ICA, CAPA and every other LF cert, plus courses
         offer: 40% off sitewide
         code: soon
+        tag: .github/assets/starts-nov-26.svg   # animated start-date tag on the Top picks card
         status: soon
       - name: Linux Foundation SkillCreds
         domain: linuxfoundation.org
