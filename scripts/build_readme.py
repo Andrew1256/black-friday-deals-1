@@ -68,6 +68,17 @@ def favicon(domain: str, size: int) -> str:
     return f"https://www.google.com/s2/favicons?domain={domain}&sz={size}"
 
 
+def code_soon(deal: dict) -> bool:
+    """`code: soon` means a coupon code is expected but not out yet."""
+    return str(deal.get("code", "")).lower() == "soon"
+
+
+def waiting_button(deal: dict, height: int = 26) -> str:
+    """Grey "Code coming soon" button with a waiting icon, for codes not out yet."""
+    img = shield("Code", "Coming Soon", "64748b", "111827")
+    return f'⏳&nbsp;<a href="{deal["url"]}"><img src="{img}" alt="Code coming soon" height="{height}"></a>'
+
+
 def coupon_button(deal: dict, height: int = 26) -> str:
     """Coupon code shown inside a button, styled like Get Deal.
 
@@ -81,6 +92,8 @@ def coupon_button(deal: dict, height: int = 26) -> str:
 
 def button(deal: dict) -> str:
     """Coupon deals show a coupon button, other deals a Get Deal button."""
+    if code_soon(deal):
+        return waiting_button(deal)
     if deal.get("code"):
         return coupon_button(deal)
     if deal["status"] == "live":
@@ -109,7 +122,7 @@ def offer_text(deal: dict) -> str:
 
 def plain_offer(deal: dict) -> str:
     """Offer as one plain sentence fragment, for FAQ answers."""
-    code = f" with code `{deal['code']}`" if deal.get("code") else ""
+    code = f" with code `{deal['code']}`" if deal.get("code") and not code_soon(deal) else ""
     return f"**{deal['name']}**: {deal['offer']}{code}"
 
 
@@ -139,7 +152,7 @@ def render_faq(data: dict) -> str:
         qa.append((f"What are the best {topic} deals for Black Friday {year}?", lines))
     codes: dict[str, str] = {}
     for d in live:
-        if d.get("code"):
+        if d.get("code") and not code_soon(d):
             codes.setdefault(d["code"], d["name"])
     if codes:
         qa.append((f"Which Black Friday {year} coupon codes work right now?",
@@ -229,6 +242,8 @@ def link_name(d: dict) -> str:
 
 def card_button(d: dict) -> str:
     """Top pick action: coupon button or Get Deal button, same size."""
+    if code_soon(d):
+        return waiting_button(d, 28)
     if d.get("code"):
         return coupon_button(d, 28)
     img = shield("Get Deal", None, "f97316")
