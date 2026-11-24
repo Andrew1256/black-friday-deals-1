@@ -6,7 +6,7 @@
 # status:  live | soon | expired
 
 year: 2026
-last_updated: 2026-11-18
+last_updated: 2026-11-24
 black_friday: 2026-11-27
 cyber_monday: 2026-11-30
 
@@ -144,8 +144,8 @@ categories:
     emoji: "📜"
     title: Certifications
     intro: >-
-      Prove your skills with a certification. The Linux Foundation runs its biggest sale of
-      the year now, and bundles save the most.
+      Prove your skills with a certification. The Linux Foundation Black Friday and Cyber
+      Monday deals are coming soon. We will add the new codes here as soon as they go live.
     guide:
       text: Full Linux Foundation coupon guide
       url: https://github.com/techiescamp/linux-foundation-coupon
@@ -155,63 +155,63 @@ categories:
         logos: [.github/assets/certs/cka.svg, .github/assets/certs/ckad.svg, .github/assets/certs/cks.png, .github/assets/certs/kcna.svg, .github/assets/certs/kcsa.svg]
         url: https://tidd.ly/3Uc4okA
         description: CKA, CKAD, CKS, KCNA and KCSA. Every single exam in the CNCF Kubernetes track
-        offer: 40% off every exam
-        code: 40KUBE26CT
-        status: live
+        offer: Deals coming soon
+        code: soon
+        status: soon
       - name: Professional Bundles
         domain: cncf.io
         logos: [.github/assets/certs/cka.svg, .github/assets/certs/ckad.svg, .github/assets/certs/cks.png]
         url: https://tidd.ly/3Uc4okA
         description: CKA + CKAD, CKA + CKS, or all three together (CKA + CKAD + CKS)
-        offer: Up to 47% off
-        code: 40KUBE26CT
-        status: live
+        offer: Deals coming soon
+        code: soon
+        status: soon
       - name: Associate + Professional Bundles
         domain: cncf.io
         logos: [.github/assets/certs/kcna.svg, .github/assets/certs/cka.svg, .github/assets/certs/kcsa.svg, .github/assets/certs/cks.png]
         url: https://tidd.ly/3Uc4okA
         description: KCNA + CKA or KCSA + CKS. Start with the associate exam, then go pro
-        offer: Up to 47% off
-        code: 40KUBE26CT
-        status: live
+        offer: Deals coming soon
+        code: soon
+        status: soon
       - name: Associate Bundle
         domain: cncf.io
         logos: [.github/assets/certs/kcna.svg, .github/assets/certs/kcsa.svg]
         url: https://tidd.ly/3Uc4okA
         description: KCNA + KCSA. Both associate-level exams together
-        offer: Up to 47% off
-        code: 40KUBE26CT
-        status: live
+        offer: Deals coming soon
+        code: soon
+        status: soon
       - name: Kubestronaut Bundle
         domain: cncf.io
         logos: [.github/assets/certs/kubestronaut.svg]
         url: https://tidd.ly/3Uc4okA
         description: CKA, CKAD, CKS, KCNA and KCSA. All 5 exams for the Kubestronaut title
-        offer: Up to 47% off
-        code: 40KUBE26CT
-        status: live
+        offer: Deals coming soon
+        code: soon
+        status: soon
       - name: Golden Kubestronaut Bundle
         domain: cncf.io
         logos: [.github/assets/certs/golden-kubestronaut.svg]
         url: https://tidd.ly/3Uc4okA
         description: All 16 CNCF and LF certs, including PCA, ICA, CAPA and LFCS
-        offer: 40% off bundle price
-        code: 40KUBE26CT
-        status: live
+        offer: Deals coming soon
+        code: soon
+        status: soon
       - name: Linux Foundation Certifications
         domain: linuxfoundation.org
         url: https://tidd.ly/3Uc4okA
         description: LFCS, PCA, ICA, CAPA and every other LF cert, plus courses
-        offer: 40% off sitewide
-        code: 40KUBE26CT
-        status: live
+        offer: Deals coming soon
+        code: soon
+        status: soon
       - name: Linux Foundation SkillCreds
         domain: linuxfoundation.org
         url: https://tidd.ly/3Uc4okA
         description: Short skill certs for Git, Bash, Helm, YAML and Vim
-        offer: 40% off
-        code: 40KUBE26CT
-        status: live
+        offer: Deals coming soon
+        code: soon
+        status: soon
       - name: FinOps Certifications
         domain: finops.org
         url: https://learn.finops.org/path/finops-certified-practitioner-self-paced
