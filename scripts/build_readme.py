@@ -76,7 +76,7 @@ def code_soon(deal: dict) -> bool:
 def waiting_button(deal: dict, height: int = 26) -> str:
     """Grey "Code coming soon" button with a waiting icon, for codes not out yet."""
     img = shield("Code", "Coming Soon", "f97316", "111827")
-    return f'⏳&nbsp;<a href="{deal["url"]}"><img src="{img}" alt="Code coming soon" height="{height}"></a>'
+    return f'<a href="{deal["url"]}"><img src="{img}" alt="Code coming soon" height="{height}"></a>'
 
 
 def coupon_button(deal: dict, height: int = 26) -> str:
@@ -112,6 +112,8 @@ def logo(deal: dict, size: int) -> str:
 
 
 def offer_text(deal: dict) -> str:
+    if code_soon(deal):  # offer not announced yet: show only a waiting icon
+        return "⏳"
     if deal["status"] == "soon" and not code_soon(deal):
         return f"👀&nbsp;<i>{deal['offer']}</i>"
     text = deal["offer"]
@@ -292,7 +294,7 @@ def render_row(d: dict) -> str:
         f"    <td>{d['description']}</td>\n"
         f'    <td align="center">{offer}</td>\n'
         f'    <td align="center" nowrap>{button(d)}</td>\n'
-        f'    <td align="center">{STATUS[d["status"]]}</td>\n'
+        f'    <td align="center">{"⏳&nbsp;Coming&nbsp;Soon" if code_soon(d) else STATUS[d["status"]]}</td>\n'
         "  </tr>"
     )
 
